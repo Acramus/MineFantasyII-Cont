@@ -59,6 +59,7 @@ public class MetalMaterial extends CustomMaterial {
         // Weak Mats Name T Dur Flx Shp Rst Wg
         getOrAddMetal("Tin", 0, 1.0F, 0.5F, 0.0F, 10F, 2.0F, 164, 177, 177).setRarity(-1).setMeltingPoint(900);
         getOrAddMetal("Copper", 0, 1.0F, 1.0F, 0.0F, 50F, 3.0F, 255, 132, 66).setMeltingPoint(1000);
+        getOrAddMetal("Prometheum", 0, 1.0F, 0.5F, 0.0F, 50F, 3.0F, 255, 132, 66).setMeltingPoint(1000);
 
         // Standard Mats Name T Dur Flx Shp Rst Wg
         getOrAddMetal("Bronze", 1, 1.5F, 1.0F, 1.5F, 20F, 3.0F, 207, 165, 118).setCrafterTiers(1).setMeltingPoint(1200);
@@ -68,7 +69,7 @@ public class MetalMaterial extends CustomMaterial {
                 .setArmourStats(1.1F, 0.8F, 1.1F);// Less Blunt for more cutting/piercing
         getOrAddMetal("Steel", 3, 3.0F, 1.0F, 2.5F, 30F, 2.5F, 168, 168, 168).setCrafterTiers(3).setMeltingPoint(1500);
         getOrAddMetal("Encrusted", 4, 8.0F, 1.0F, 3.0F, 35F, 3.0F, 64, 255, 255).setCrafterTiers(3)
-                .setMeltingPoint(1800).setArmourStats(1.0F, 1.0F, 1.2F);// Better Piercing
+                .setMeltingPoint(1800).setArmourStats(1.0F, 1.0F, 1.2F); // Better Piercing
         getOrAddMetal("Obsidian", 4, 8.0F, 1.0F, 3.0F, 35F, 3.0F, 90, 45, 90).setCrafterTiers(3).setMeltingPoint(2000)
                 .setArmourStats(1.0F, 1.3F, 1.0F);// Better Blunt
         getOrAddMetal("Tungsten", 4, 8.0F, 0.8F, 3.0F, 35F, 4.0F, 66, 86, 65).setCrafterTiers(3).setMeltingPoint(2000)
@@ -111,6 +112,8 @@ public class MetalMaterial extends CustomMaterial {
                 .setArmourStats(1.1F, 1.0F, 1.1F).setCrafterTiers(2);// Similar to Manasteel, Slightly stronger
         getOrAddMetal("Terrasteel", 4, 6.0F, 1.0F, 4.0F, 40F, 2.5F, 88, 250, 150).setMeltingPoint(1500)
                 .setArmourStats(1.0F, 0.9F, 1.0F).setCrafterTiers(3);
+        getOrAddMetal("Prometheum", 0, 1.0F, 0.5F, 0.0F, 50F, 3.0F, 255, 132, 66).setMeltingPoint(1000)
+                .setArmourStats(1.0F, 0.9F, 1.0F).setCrafterTiers(0);
 
         // Alloy
         getOrAddMetal("CompositeAlloy", 4, 4.5F, 10.0F, 1.0F, 2.5F, 75F, 4.0F, 65, 75, 65).setMeltingPoint(2500)

@@ -148,6 +148,7 @@ public class BaseMaterialMF {
         // 40-49
         obsidian = addMaterial("Obsidian", 3, 2000, 3, 3.5F, 25, 1.00F, 40).setForgeStats(3, 3, 5.0F, 130, 240); // lvl
         // 40-49
+        prometheum = addmeterial("Prometheum", 0, 250, 0, 1.0F, 3.5, 1.00F, 2.5).setForgeStats(0, 0, 1.0F, 95, 250);
         // Advanced Materials (3 - 4) Levels 50-75
         blacksteel = addMaterial("BlackSteel", 4, 1500, 4, 4.0F, 12, 1.00F, 50).setForgeStats(4, 4, 4.0F, 150, 350);// lvl
         // 50
